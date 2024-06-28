@@ -1,0 +1,29 @@
+{
+  "name": "@ns-widget/screen-capture",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "liukaixin <15713857919@163.com>",
+  "homepage": "https://github.com/liukaixin-ns/ns-widget#readme",
+  "license": "ISC",
+  "main": "lib/screen-capture.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liukaixin-ns/ns-widget.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/screen-capture.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/liukaixin-ns/ns-widget/issues"
+  }
+}
