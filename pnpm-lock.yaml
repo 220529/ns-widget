@@ -12,6 +12,8 @@ importers:
         specifier: ^8.1.5
         version: 8.1.5(encoding@0.1.13)
 
+  packages/screen-capture: {}
+
 packages:
 
   '@babel/code-frame@7.24.7':
