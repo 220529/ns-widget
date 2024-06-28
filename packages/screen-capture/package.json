@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/liukaixin-ns/ns-widget/issues"
   },
-  "gitHead": "12a3d1707219dfc824b7aebf71225527dd699c24"
+  "gitHead": "0033cecd9c9046402252b873fd2113b0d97500da"
 }
