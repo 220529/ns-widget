@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
 module.exports = screenCapture;
 
 function screenCapture() {
-  return 'Hello from screenCapture';
+  return "Hello from screenCapture!";
 }
