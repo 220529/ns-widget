@@ -1,0 +1,39 @@
+{
+  "name": "@ns-widget/fs",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "liukaixin <15713857919@163.com>",
+  "homepage": "https://github.com/220529/ns-widget#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "bin": {
+    "fs": "./lib/index.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/220529/ns-widget.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/fs.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/220529/ns-widget/issues"
+  },
+  "dependencies": {
+    "@ns-cli/utils": "^0.0.29",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^11.0.0",
+    "node-emoji": "^2.1.3"
+  }
+}
