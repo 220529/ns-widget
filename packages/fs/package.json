@@ -35,5 +35,6 @@
     "fs-extra": "^11.2.0",
     "glob": "^11.0.0",
     "node-emoji": "^2.1.3"
-  }
+  },
+  "gitHead": "42c12fcc728efc39874c8aa6db3ad468339d021b"
 }
