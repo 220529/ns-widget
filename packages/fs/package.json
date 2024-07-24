@@ -1,5 +1,6 @@
 {
   "name": "@ns-widget/fs",
+  "private": false,
   "version": "1.0.3",
   "description": "> TODO: description",
   "author": "liukaixin <15713857919@163.com>",
@@ -33,5 +34,5 @@
     "glob": "^11.0.0",
     "node-emoji": "^2.1.3"
   },
-  "gitHead": "aa8bd824b1ef26f85c667a848186b652ae7f4baf"
+  "gitHead": "f4756fefba6172fe898429e717aefadea8b5ae50"
 }
