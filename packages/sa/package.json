@@ -13,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/220529/ns-widget.git"
@@ -29,5 +26,6 @@
   },
   "devDependencies": {
     "rollup": "^4.20.0"
-  }
+  },
+  "gitHead": "9704eefc221df2602c68f4c52636543809f12343"
 }
