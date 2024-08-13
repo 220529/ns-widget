@@ -2,5 +2,5 @@ import { sa } from "./sa.js";
 const print = () => {
   sa();
 };
-console.log("print....");
+console.log("print...");
 export default { print, sa };
