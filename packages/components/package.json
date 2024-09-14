@@ -8,7 +8,6 @@
     "dev": "father dev",
     "build": "father build",
     "build:deps": "father prebundle",
-    "prepublishOnly": "father doctor && npm run build",
     "docs": "dumi dev"
   },
   "keywords": [],
@@ -31,5 +30,6 @@
   },
   "dependencies": {
     "styled-components": "^6.1.13"
-  }
+  },
+  "gitHead": "059adf77951efc2c0bb4a172de20de7b2bf34293"
 }
