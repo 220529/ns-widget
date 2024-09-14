@@ -7,8 +7,7 @@
   "scripts": {
     "dev": "father dev",
     "build": "father build",
-    "build:deps": "father prebundle",
-    "prepublishOnly": "father doctor && npm run build"
+    "build:deps": "father prebundle"
   },
   "keywords": [],
   "authors": [],
@@ -22,5 +21,6 @@
   },
   "devDependencies": {
     "father": "^4.5.1-beta.4"
-  }
+  },
+  "gitHead": "ee0913a01d18ca58742c48082545bdb1e869b2ac"
 }
