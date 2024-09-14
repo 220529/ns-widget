@@ -1,4 +1,3 @@
-// 上报数据源
 var REMOTE = {
   server: "http://nest.lytt.fun/monitor/collect.gif",
 };
