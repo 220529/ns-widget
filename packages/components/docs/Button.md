@@ -18,7 +18,7 @@ const App = () => {
         Primary
       </Button>
       &nbsp;
-      <Button>default</Button>
+      <Button>default btn</Button>
     </div>
   );
 };
