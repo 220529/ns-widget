@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div>
-      <p>当前计数: {count}</p>
+      <p>count: {count}</p>
       <Button onClick={handleClick} type="primary">
         Primary
       </Button>
