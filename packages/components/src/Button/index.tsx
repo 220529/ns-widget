@@ -1,7 +1,5 @@
 import React, { FC, MouseEventHandler } from "react";
-import { PrimaryButton, SecondaryButton } from "./styles";
-
-console.log("React", React);
+import "./index.less"; // 引入 LESS 文件
 
 // 定义 Button 组件的 Props 类型
 interface ButtonProps {
@@ -12,9 +10,16 @@ interface ButtonProps {
 
 // Button 组件
 const Button: FC<ButtonProps> = ({ onClick, type, children }) => {
-  const ButtonComponent = type === "primary" ? PrimaryButton : SecondaryButton;
+  const buttonClassName =
+    type === "primary"
+      ? "ns-widget-primary-button"
+      : "ns-widget-secondary-button";
 
-  return <ButtonComponent onClick={onClick}>{children}</ButtonComponent>;
+  return (
+    <button className={`ns-widget-button ${buttonClassName}`} onClick={onClick}>
+      {children}
+    </button>
+  );
 };
 
 export default Button;

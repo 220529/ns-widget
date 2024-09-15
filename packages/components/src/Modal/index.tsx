@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { ModalOverlay, ModalContent, ModalCloseButton } from "./styles";
+import "./index.less"; // 引入 LESS 文件
 
 interface ModalProps {
   visible: boolean;
@@ -11,12 +11,17 @@ const Modal: FC<ModalProps> = ({ visible, onClose, children }) => {
   if (!visible) return null; // 如果 modal 不可见，返回 null 不渲染任何内容
 
   return (
-    <ModalOverlay onClick={onClose}>
-      <ModalContent onClick={(e) => e.stopPropagation()}>
-        <ModalCloseButton onClick={onClose}>&times;</ModalCloseButton>
+    <div className="ns-widget-modal" onClick={onClose}>
+      <div
+        className="ns-widget-modal-content"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button className="ns-widget-modal-close" onClick={onClose}>
+          &times;
+        </button>
         {children}
-      </ModalContent>
-    </ModalOverlay>
+      </div>
+    </div>
   );
 };
 

@@ -6,7 +6,7 @@
   "types": "dist/esm/index.d.ts",
   "scripts": {
     "dev": "father dev",
-    "build": "father build",
+    "build": "rm -rf node_modules/.cache/father && father build",
     "build:deps": "father prebundle",
     "docs": "dumi dev"
   },
@@ -23,13 +23,13 @@
   "devDependencies": {
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
+    "babel-plugin-import": "^1.13.8",
     "dumi": "^2.4.10",
     "father": "^4.5.1-beta.4",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  },
-  "dependencies": {
-    "styled-components": "^6.1.13"
   },
   "gitHead": "23dd7d9e4d2cefb90d6b35542858ba0ff9f9c67f"
 }

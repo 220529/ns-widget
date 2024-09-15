@@ -1,24 +1,26 @@
-import styled from "styled-components";
-
-const BaseButton = styled.button`
-  padding: 10px 20px;
-  border: none;
+/* 定义基础按钮样式 */
+.ns-widget-button {
+  display: inline-block;
+  padding: 0.5em 1em;
   border-radius: 4px;
+  border: none;
+  font-size: 14px;
   cursor: pointer;
-  font-size: 16px;
   transition: background-color 0.3s;
-`;
+}
 
-export const PrimaryButton = styled(BaseButton)`
+/* Primary Button 样式 */
+.ns-widget-primary-button {
   background-color: #00b38a;
   color: white;
 
   &:hover {
     background-color: #00c8a0;
   }
-`;
+}
 
-export const SecondaryButton = styled(BaseButton)`
+/* Secondary Button 样式 */
+.ns-widget-secondary-button {
   background-color: #f8f9fa;
   color: #333;
   border: 1px solid #dee2e6;
@@ -26,4 +28,4 @@ export const SecondaryButton = styled(BaseButton)`
   &:hover {
     background-color: #e2e6ea;
   }
-`;
+}
