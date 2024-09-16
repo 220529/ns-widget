@@ -1,6 +1,6 @@
 {
   "name": "@ns-widget/components",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
