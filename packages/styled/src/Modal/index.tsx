@@ -1,4 +1,3 @@
-// Modal.tsx
 import React, { FC } from "react";
 import { ModalOverlay, ModalContent, ModalCloseButton } from "./styles";
 
