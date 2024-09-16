@@ -13,7 +13,7 @@ interface ButtonProps {
 const Button: FC<ButtonProps> = ({ onClick, type, children }) => {
   const ButtonComponent = type === "primary" ? PrimaryButton : SecondaryButton;
 
-  return <ButtonComponent onClick={onClick}>{children}22</ButtonComponent>;
+  return <ButtonComponent onClick={onClick}>{children}</ButtonComponent>;
 };
 
 export default Button;
