@@ -1,6 +1,6 @@
 {
   "name": "@ns-widget/a",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "测试依赖包",
   "author": "liukaixin <15713857919@163.com>",
   "homepage": "https://github.com/220529/ns-widget#readme",
@@ -24,7 +24,7 @@
     "test": "node ./__tests__/a.test.js"
   },
   "dependencies": {
-    "@ns-widget/b": "^0.0.3"
+    "@ns-widget/b": "workspace:*"
   },
   "bugs": {
     "url": "https://github.com/220529/ns-widget/issues"
