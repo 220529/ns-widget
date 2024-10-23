@@ -1,6 +1,6 @@
 {
   "name": "@ns-widget/b",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "测试包",
   "author": "liukaixin <15713857919@163.com>",
   "homepage": "https://github.com/220529/ns-widget#readme",
@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
+    "access": "public"
   },
   "repository": {
     "type": "git",
