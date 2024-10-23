@@ -8,6 +8,6 @@ export default defineConfig({
   },
   umd: {
     entry: "src", // 默认构建入口文件
-    name: "monitor_ns",
+    name: "sa",
   },
 });

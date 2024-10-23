@@ -1,0 +1,29 @@
+{
+  "name": "@ns-widget/b",
+  "version": "0.0.1",
+  "description": "测试包",
+  "author": "liukaixin <15713857919@163.com>",
+  "homepage": "https://github.com/220529/ns-widget#readme",
+  "license": "ISC",
+  "main": "lib/b.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/220529/ns-widget.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/b.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/220529/ns-widget/issues"
+  }
+}
