@@ -29,5 +29,6 @@
   "dependencies": {
     "@babel/template": "^7.25.9",
     "html-tags": "^3.3.1"
-  }
+  },
+  "gitHead": "730954bbb63fa1606e4105d2a660ecc97e52351f"
 }
