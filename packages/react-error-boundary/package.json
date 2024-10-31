@@ -38,5 +38,6 @@
   "dependencies": {
     "react-error-boundary": "^4.1.2",
     "styled-components": "^4.0.0"
-  }
+  },
+  "gitHead": "dd96f23748ceb76fc14d968aab12bab0d7cb64fe"
 }
