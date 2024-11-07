@@ -1,7 +1,7 @@
 import { sa } from "./sa.js";
 
 const print = () => {
-  console.log("this is print");
+  console.log("this is print.");
   sa();
 };
 
